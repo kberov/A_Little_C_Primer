@@ -10,7 +10,7 @@ int main(void) /* Main function */
 	float volume; /* Define a float variable. */
 	float radius = 3; /* Define and initialize a variable. */
 	volume = sphere(radius); /* Call sphere() and copy the return value into 'volume'. */
-	printf("Volume: %f\n", volume);/* print the result */
+	printf("Обем: %f\n", volume);/* print the result */
 	return 0;
 }
 
