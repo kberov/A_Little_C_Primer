@@ -1,10 +1,10 @@
 /* pmmatch.c */
-#include <stdio.c>
+#include <stdio.h>
 void showme( int a, int b);
 int main(int argc, char const *argv[])
 {
-	int x = 1, int y = 100;
-	showme( x, y);
+	int x = 1; int y = 100;
+	showme( x, y );
 	return 0;
 }
 
