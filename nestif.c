@@ -19,6 +19,11 @@ void fire( int weapon )
     {
       printf( "Fired laser!\n" );
     }
+    else
+    {
+    printf( "Unknown weapon!\n");
+    }
+
   }
 }
 
