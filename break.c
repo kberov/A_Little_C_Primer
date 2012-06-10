@@ -1,4 +1,9 @@
 /* break.c */
+/**
+ * The "break" statement is not specific to "switch" statements. 
+ * It can be used to break out of other control structures,
+ * though good program design tends to avoid such improvisations:
+ */
 #include <stdio.h>
 int main()
 {
